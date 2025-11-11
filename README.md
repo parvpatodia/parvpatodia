@@ -48,6 +48,7 @@ If you want to talk about AI systems, building full-stack products, robotics, or
 
 **Location**: San Jose, CA
 
+
 **Currently Learning**
 
 Advanced Computer Vision and distributed training (FSDP), making sense of how to optimize models for real-world constraints, understanding federated learning systems at a deeper level, and thinking about how video understanding can solve practical problems.
