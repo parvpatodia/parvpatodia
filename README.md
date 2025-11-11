@@ -2,7 +2,7 @@
 
 I like to build things that work. Currently a master's student in AI at Northeastern Silicon Valley, coming from a mechanical engineering background where I learned to think systematically about problems. But what really got me into computer science was realizing something fundamental: in CS, you can actually see your logical thinking execute in real time. In mechanical engineering, you design, iterate, wait months for prototypes. In software and AI, you think it, code it, run it, fix it, ship it. That immediate feedback loop is addictive, especially when you're solving problems that matter.
 
-Over the past couple of years, I've worked on things ranging from mental health chatbots and autonomous vehicle perception systems to building platforms that process data and extract insights. The projects that stuck with me weren't just technically interesting—they were ones where I could see tangible impact. A model improving from 60% to 77% accuracy isn't just a number; it's real people getting better answers. A deployed system that's actually being used by teams, not sitting in a GitHub repo. That's what drives me to take on projects.
+Over the past couple of years, I've worked on things ranging from mental health chatbots and autonomous vehicle perception systems to building platforms that process data and extract insights. The projects that stuck with me weren't just technically interesting; they were ones where I could see tangible impact. A model improving from 60% to 77% accuracy isn't just a number; it's real people getting better answers. A deployed system that's actually being used by teams, not sitting in a GitHub repo. That's what drives me to take on projects.
 
 I'm also genuinely curious. I started in mechanical engineering with a computing minor, then landed internships in fintech and robotics, and now I'm deep in AI and full-stack development. Some people see that as jumping around. I see it as understanding different domains well enough to connect the dots and bring solutions from one field to another.
 
@@ -26,13 +26,13 @@ Developer Workflow: Git, Docker, version control that makes sense, Cursor as my 
 
 Right now I'm working on projects that sit at the intersection of computer vision and practical problem-solving. Semantic search engines that understand what's actually in video, object detection systems that work in real conditions, and thinking about how to make AI systems that are actually useful for real teams, not just research papers.
 
-I'm also deep into federated learning as part of coursework and research—the whole idea of training on decentralized data without moving it around interests me because it's a real problem with real constraints.
+I'm also deep into federated learning as part of coursework and research;the whole idea of training on decentralized data without moving it around interests me because it's a real problem with real constraints.
 
 The mix of machine learning, backend systems, and frontend interfaces means I can take something from "here's an idea" to "here's a working product" without having to wait for someone else to build the next layer.
 
 **Why I'm Here**
 
-I'm looking for opportunities where I can build real things and see them work. Internships in AI/ML roles where I'm not just implementing existing papers but actually thinking about systems. Also genuinely interested in robotics roles that combine perception and decision-making. And if you're a founder building something, I'm the person who can move quickly across different technical layers—I can prototype fast, iterate on feedback, and actually ship things.
+I'm looking for opportunities where I can build real things and see them work. Internships in AI/ML roles where I'm not just implementing existing papers but actually thinking about systems. Also genuinely interested in robotics roles that combine perception and decision-making. If you're a founder building something, I'm the person who can move quickly across different technical layers. I can prototype fast, iterate on feedback, and actually ship things.
 
 I'm open to exploring fields I haven't worked in yet. That's not a weakness, that's how I learn best.
 
