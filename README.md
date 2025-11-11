@@ -22,6 +22,13 @@ I'm also genuinely curious. I started in mechanical engineering with a computing
 
 **Developer Workflow**: Git, Docker, version control that makes sense, Cursor as my IDE. I also actually care about readable code and meaningful commit messages.
 
+### My GitHub Stats
+
+![Parv's GitHub stats](https://github-readme-stats.vercel.app/api?username=parvpatodia&show_icons=true&theme=dark&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=parvpatodia&layout=compact&theme=dark)
+
+
 **What I'm Doing Now**
 
 Right now I'm working on projects that sit at the intersection of computer vision and practical problem-solving. Semantic search engines that understand what's actually in video, object detection systems that work in real conditions, and thinking about how to make AI systems that are actually useful for real teams, not just research papers.
