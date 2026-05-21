@@ -75,15 +75,15 @@ Vision Transformer built from scratch in PyTorch for bi-temporal change detectio
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=parvpatodia&theme=tokyonight" height="165"/>
+<img src="assets/stats.svg" height="165"/>
 &nbsp;&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=parvpatodia&theme=tokyonight" height="165"/>
+<img src="assets/languages.svg" height="165"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=parvpatodia&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<img src="assets/streak.svg" width="495"/>
 
 </div>
 
