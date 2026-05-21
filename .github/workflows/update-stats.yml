@@ -1,0 +1,41 @@
+name: Refresh GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch stats SVGs
+        run: |
+          mkdir -p assets
+          curl -s --retry 3 --max-time 30 \
+            "https://streak-stats.demolab.com?user=parvpatodia&theme=tokyonight&hide_border=true" \
+            -o assets/streak.svg
+          curl -s --retry 3 --max-time 30 \
+            "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=parvpatodia&theme=tokyonight" \
+            -o assets/stats.svg
+          curl -s --retry 3 --max-time 30 \
+            "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=parvpatodia&theme=tokyonight" \
+            -o assets/languages.svg
+
+      - name: Validate SVGs (skip commit if any fetch failed)
+        run: |
+          for f in assets/streak.svg assets/stats.svg assets/languages.svg; do
+            head -c 5 "$f" | grep -q '<svg' || { echo "$f is not a valid SVG, aborting"; exit 1; }
+          done
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets/
+          git diff --staged --quiet || git commit -m 'chore: refresh github stats [skip ci]'
+          git push
